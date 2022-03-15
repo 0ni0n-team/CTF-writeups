@@ -1,5 +1,7 @@
 # Adventure ROM 4
 
+[[+] Source](https://github.com/0ni0n-team/CTF-writeups/blob/main/utctf/re/Adventure%20ROM%204/game.gb)
+
 ### First sight
 
 We got a .gb binary, load it to bgb
