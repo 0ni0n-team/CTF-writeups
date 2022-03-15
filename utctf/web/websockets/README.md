@@ -40,7 +40,7 @@ According the directions of websockets, here is my idea to exploit:
 
 ### 3. Exploit:
 
-This is my exploit code, using [websocket-client](https://pypi.org/project/websocket-client/) module in Python:
+This is [my exploit code](solve2.py), using [websocket-client](https://pypi.org/project/websocket-client/) module in Python:
 
 ```python
 from websocket import create_connection
@@ -80,7 +80,7 @@ Login with the PIN `907` and get the flag:
 
 ![image](https://user-images.githubusercontent.com/61876488/158443658-328a8eaa-6c25-4fc7-9184-bcdaeebe8dec.png)
 
-There is am another amazing way to exploit from my teammate [Gourav Suram](https://github.com/heapbytes). He used [selenium](https://selenium-python.readthedocs.io/):
+There is [an another amazing way](solve1.py) to exploit from my teammate [Gourav Suram](https://github.com/heapbytes). He used [selenium](https://selenium-python.readthedocs.io/):
 
 ```python
 from selenium.webdriver.common.keys import Keys
